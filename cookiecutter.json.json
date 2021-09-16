@@ -1,0 +1,17 @@
+{
+  "full_name": "Abiodun Olaoye",
+  "email": "abbeylincon2007@yahoo.com",
+  "github_username": "abbey2017",
+  "project_name": "Image Matching",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Computer vision model for detecting copy images",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0",
+  "use_pytest": "n",
+  "use_black": "n",
+  "use_pypi_deployment_with_travis": "y",
+  "add_pyup_badge": "n",
+  "command_line_interface": ["Click", "Argparse", "No command-line interface"],
+  "create_author_file": "y",
+  "open_source_license": ["BSD license"]
+}
